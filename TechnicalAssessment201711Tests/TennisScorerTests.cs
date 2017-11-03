@@ -4,12 +4,11 @@ using NUnit.Framework;
 namespace TechnicalAssessment201711Tests
 {
     [TestFixture]
-    public class UnitTest1
+    public class TennisScorerTests
     {
         [Test]
-        public void TestMethod1()
+        public void GetResultTests()
         {
-            Assert.IsTrue(false);
         }
     }
 }

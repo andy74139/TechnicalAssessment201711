@@ -8,9 +8,17 @@ namespace TechnicalAssessment201711
 {
     public class TennisScorer
     {
+        private const int _MaxScore = 4;
+
         public TennisResult GetResult(TennisScore player1, TennisScore player2)
         {
-            return 0;
+            if (player1 == TennisScore.Adventage)
+                return TennisResult.AdventagePlayer1;
+            if (player2 == TennisScore.Adventage)
+                return TennisResult.AdventagePlayer2;
+
+            var result = (TennisResult)(player1 + (int)player2 * _MaxScore);
+            return result;
         }
     }
 

@@ -1,5 +1,4 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 using TechnicalAssessment201711;
 
 namespace TechnicalAssessment201711Tests
